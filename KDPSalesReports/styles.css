@@ -1,0 +1,32 @@
+﻿* {margin:0; padding:0}
+#header {margin:20px auto; width:1000px}
+#header_left {margin:0px; width:130px; float:left}
+#header_right {margin:22px 0px 0px 0px; width:870px; float:right; text-align:right; font-family:Arial; font-size:14px; color:#323265}
+#wrapper {width:1000px; margin:20px auto; border-top:4px solid #ccc}
+#container {width:100%; margin:30px 0px;}
+#content {margin:20px auto;}
+#content p {margin: 0px 0px 10px 0px; color:#3a3a3a; font-family: Arial, Helvetica, sans-serif; font-size:14px; line-height:18px; text-align:justify}
+#content h1 {padding:0px 0px 10px 0px; border-bottom:1px solid #ccc; font:bold 26px 'Droid Sans',sans-serif}
+#content h2 {color:#ff9933; font:normal normal 22px 'Droid Sans',sans-serif; margin-top:20px;}
+#content h1, h2, h3, h4, h5{color:#ff9933; line-height:26px; margin:0px 0px 20px 0px; position:relative; text-align:left}
+#content a, a:visited {color:#4e4e9c; text-decoration:underline}
+#content a:hover {color:#323265; text-decoration:none}
+#content ul {list-style-image:url(images/10.png); margin:50px 0px 30px 20px; text-align:justify}
+#content ul li {text-indent:0; background:#f4f4f4; border-radius:5px; color:#3a3a3a; margin:-12px 0 12px 0; padding:12px; text-align:left; font-family: Arial, Helvetica, sans-serif; font-size:14px}
+#content ul li:nth-of-type(even){background:transparent; color:#3a3a3a;}
+#content #radio_container {width:100%; margin:10px 0px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#3a3a3a;}
+#content #radio_left {margin:0px; width:30%; float:left}
+#content #radio_left label {margin-left:5px}
+#content #radio_right {margin:0px; width:40%; float:left}
+#content #radio_right label {margin-left:5px}
+.aspnet_label {margin: 0px 0px 10px 0px; color:#3a3a3a; font-family: Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; line-height:18px; text-align:justify}
+.aspnet_dropdownlist {margin:5px 0px 10px 0px; color:#3a3a3a; font-family: Arial, Helvetica, sans-serif; font-size:14px;}
+.radio {display:inline-block; vertical-align:middle; margin:0px 0px 5px 15px}
+.data {margin: 20px 0px; border: 1px solid #acacab;}
+.data table {border: none; color: #3a3a3a; font-family: Arial, Helvetica, sans-serif; font-size:14px;}
+.data table tr td {padding: 5px;}
+.data table tr td.alternating {background: #eaeaea;}
+.data table tr td.heading {background: #9a9a9a; color: #eaeaea; font-weight: bold;}
+.status_ok {color:Green; font-family:Arial; font-size:14px}
+.status_error {color:Red; font-family:Arial; font-size:14px}
+.clear {clear:both}
